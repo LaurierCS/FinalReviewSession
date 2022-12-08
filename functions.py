@@ -19,6 +19,8 @@ def determine_length_equality(twoDList):
             if len(element)!=length:
                 equality = False
     return equality
+
+#loops through a string and prints each character
 def loop_thru_str(string):
     for char in string:
         print(char)
