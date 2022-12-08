@@ -38,6 +38,8 @@ def staircase(symbol,length):
 # performs both types of division and determines the equality of the results
 def both_divisions(a,b):
     return a/b, a//b, a/b == a//b
+
+# puts all elements of a 2d list in a 1d list
 def twoDToOneD(twoDList):
     new_list = []
     for element in twoDList:
