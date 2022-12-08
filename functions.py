@@ -1,3 +1,4 @@
+# reads from the list of name until finds the name in the list. if not in the list, reads entire list of names
 def read_names(fh,name):
     x=fh.readline()
     while (x!=name+"\n" and x!=""):
