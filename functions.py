@@ -9,6 +9,8 @@ def read_every_element(twoDList):
         for item in element:
             print(item)
     return
+
+#checks if all elements in 2d list are equal length
 def determine_length_equality(twoDList):
     equality = True
     if len(twoDList)>1:
