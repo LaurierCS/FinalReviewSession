@@ -27,6 +27,8 @@ def staircase(symbol,length):
     for i in range(1,length+1):
         print(symbol*i)
     return
+
+#performs both types of division and determines the equality of the results
 def both_divisions(a,b):
     return a/b, a//b, a/b == a//b
 def twoDToOneD(twoDList):
