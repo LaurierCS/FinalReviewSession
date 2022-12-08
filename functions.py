@@ -4,13 +4,15 @@ def read_names(fh,name):
         print(x)
         x=fh.readline()
     return
+
+# reads each element of each list within a 2d list
 def read_every_element(twoDList):
     for element in twoDList:
         for item in element:
             print(item)
     return
 
-#checks if all elements in 2d list are equal length
+# checks if all elements in 2d list are equal length
 def determine_length_equality(twoDList):
     equality = True
     if len(twoDList)>1:
@@ -20,7 +22,7 @@ def determine_length_equality(twoDList):
                 equality = False
     return equality
 
-#loops through a string and prints each character
+# loops through a string and prints each character
 def loop_thru_str(string):
     for char in string:
         print(char)
@@ -30,7 +32,7 @@ def staircase(symbol,length):
         print(symbol*i)
     return
 
-#performs both types of division and determines the equality of the results
+# performs both types of division and determines the equality of the results
 def both_divisions(a,b):
     return a/b, a//b, a/b == a//b
 def twoDToOneD(twoDList):
