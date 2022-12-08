@@ -28,6 +28,8 @@ def loop_thru_str(string):
     for char in string:
         print(char)
     return
+
+# makes a staircase of desired bottom level length and symbol
 def staircase(symbol,length):
     for i in range(1,length+1):
         print(symbol*i)
